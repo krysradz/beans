@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Let It Percolate</title>
+
+		<script type = "text/javascript" script src ="assets/scripts/jquery-2.1.4.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="assets/stylesheet/styles.css">
+
+
+	</head>
+	
+	<body>	
+
+		<div class= "heroimage">
+			<img src = "assets/images/test.jpg" alt = "test image" class = "test"/>
+		</div>
+		<div id = "nav_container">
+			<nav>
+				<ul class='nav'>
+					<li><a class= 'menu' id="mmenu1" href='wanl.html' onmouseover="mopen(1);" onmouseout="mclosetime();">We Are Not Legumes</a></li>
+						<div class="submenu" id="menu1" onmouseover="mcancelclosetime()" onmouseout="mclosetime();">
+	        				<a class = "button" href="wanl.html">We Are Not Legumes!</a>
+	        				<a class = "button" href="mts.html">Meet the Seeds</a>
+	        				<a class = "button" href="test.html">Testimonials</a>
+	        				<a class = "button" href="gp.html">Go Percolate!</a>
+	    				</div>
+				</ul>
+			</nav>
+		</div>
+		<!--<div id='mainContent'>
+			some cool content
+		</div>
+
+		<button onclick="toggleContent()">toggle</button>
+
+		<!--Or you can do the following, which is preferred
+
+		<button id= "toggle-content">toggle 2</button>......get rest in js file from the lecture notes/panopto it happened around 9pm-->
+
+
+
+		<script src ="assets/scripts/jquery-2.1.4.js"></script>
+		<script src= "assets/scripts/mylibrary.js"></script> <!--this must be first and execute first-->
+		<script src= "assets/scripts/jquery.js"></script>
+	</body>
+</html>
