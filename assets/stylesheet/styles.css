@@ -1,0 +1,136 @@
+/*
+#523d20- dark brown
+#d28caa- rose
+#f3ebe1- white
+#aad28c- green
+
+*/
+
+body {
+	background: tan;
+}
+
+.container {
+     text-align: center;
+     margin: 0 auto;
+     width: 80%;
+}
+
+.left {
+	display: inline-block;
+    width: 20%;
+    border: solid #aad28c 5px;
+}
+
+.left img {
+	width: 100%
+}
+
+.middle {
+	display: inline-block;
+    width: 20%;
+    border: solid #f3ebe1 5px;
+    text-align: left;
+}
+
+
+.right {
+	display: inline-block;
+    width: 20%;
+    border: solid #aad28c 5px;
+}
+
+.right img {
+	width: 100%;
+}
+
+.nav_container{
+	position: absolute;
+}
+
+ul.nav{
+	list-style: none;
+	padding: 0;
+	margin-right: 10px;
+	text-align: center;
+  	padding: 100px;
+
+}
+
+ul.nav li{
+	display: inline-block;
+}
+
+.menu{
+	padding: 10px 12px;
+	border: 1px solid #d28caa;
+	color: #f3ebe1;
+	background-color: #523d20;
+	text-decoration: none;
+	/*display: inline-block;*/
+	border-radius: 5px;
+	padding-bottom: 5px;
+
+}
+
+.menu:hover{
+	/*margin: 200px 10 10 200px;*/
+	background-color: #aad28c;
+	color: #523d20;
+}
+
+.submenu {
+	display: block;
+	padding-top: 20px;
+}
+
+.submenu a {
+	text-decoration: none;
+}
+
+.heroimage {
+	margin: auto;
+	width: 40%;
+	height: 40%;
+	padding-top: 10%;
+}
+
+.java {
+
+	display: block;
+	padding-bottom: 2%;
+	margin: 0 auto;
+	border: 10px solid #aad28c;
+	border-radius: 5px;
+}
+
+.planta {
+
+	display: block;
+	padding-bottom: 2%;
+	margin: 0 auto;
+	border: 10px solid #aad28c;
+	border-radius: 5px;
+
+}
+
+
+.button {
+	padding: 10px 12px;
+	border: 1px solid #d28caa;
+	color: #f3ebe1;
+	background-color: #523d20;
+	text-decoration: none;
+	border-radius: 5px;
+
+	}
+
+.button:hover{
+	/*margin: 200px 10 10 200px;*/
+	background-color: #aad28c;
+	color: #523d20;
+}
+
+
+/* can stop the buttons from jumping by doing something with margin */
+
